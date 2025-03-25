@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-ecs-appsignal
+friendly_name: AppSignal for ECS/Fargate
+description: Configures ECS/Fargate app to use AppSignal for telemetry
+category: capability
+subcategory: telemetry
+provider_types:
+    - aws
+platform: appsignal
+subplatform: ""
+type: ""
+appCategories:
+    - container
+is_public: true
